@@ -25,7 +25,8 @@ h4,
 h5,
 h6,
 p {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 img {
@@ -37,12 +38,17 @@ img {
 
 ul,
 ol {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 0;
 }
 
 address {
   font-style: normal;
+}
+
+button {
+  cursor: pointer;
 }
 
 .list {
@@ -160,7 +166,6 @@ address {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
-  cursor: pointer;
   padding: 16px 32px;
   margin: 0 auto;
   display: block;
